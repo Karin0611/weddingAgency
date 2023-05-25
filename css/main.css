@@ -1,0 +1,246 @@
+@font-face {
+    font-family: MullerRegular;
+    src: url("../fonts/MullerRegular.ttf");
+}
+
+@font-face {
+    font-family: MullerBold;
+    src: url("../fonts/MullerBold.ttf");
+}
+
+@font-face {
+    font-family: MullerMediumItalic;
+    src: url("../fonts/MullerMediumItalic.ttf");
+}
+
+@font-face {
+    font-family: MullerRegularItalic;
+    src: url("../fonts/MullerRegularItalic.ttf");
+}
+
+@font-face {
+    font-family: MullerMedium;
+    src: url("../fonts/MullerMedium.ttf");
+}
+
+@font-face {
+    font-family: Yeseva;
+    src: url("../fonts/YesevaOne-Regular.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+#top {
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(235, 225, 207);
+    border-bottom-style: solid;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#top .logo {
+    max-width: 278px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.moments {
+    font-size: 30px;
+    font-family: Yeseva, sans-serif;
+    color: rgb(153, 110, 28);
+}
+
+.wedding {
+    margin-top: 14px;
+    font-size: 11px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(153, 110, 28);
+    text-align: center;
+
+}
+
+#header-container {
+    max-width: 1200px;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+#burger {
+    display: none;
+}
+
+#menu {
+    text-align: center;
+}
+#menu svg {
+    display: none;
+}
+
+#menu a {
+    font-size: 12px;
+    font-family: MullerMedium, sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.2;
+    text-decoration: none;
+    margin: 25px;
+    text-transform: uppercase;
+}
+
+#menu a:hover {
+    color: #e6a936;
+}
+
+#back {
+    background-image: url("../images/analise-benevides-gWedi4SWsHQ-unsplash.png");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+#main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 130px 0;
+}
+
+#main-container h1 {
+    margin: 0;
+    max-width: 565px;
+    font-size: 45px;
+    font-family: Yeseva sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.222;
+}
+
+#main-info-container {
+    margin-top: 50px;
+}
+
+#main-text {
+    font-size: 15px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.333;
+    max-width: 490px;
+}
+
+#second-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 15px;
+    margin-top: 50px;
+}
+
+.info:hover {
+    color: #805c17;
+}
+
+.title {
+    font-size: 18px;
+    font-family: MullerBold, sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.111;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 15px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.333;
+    margin-top: 12px;
+    max-width: 285px;
+}
+
+.title i:hover {
+    color: rgb(66, 49, 13);
+}
+
+
+#main-info {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    gap: 23px;
+    align-items: end;
+}
+
+#main-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#last {
+    background: #faf7f2;
+}
+
+#last-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+    padding: 120px 0 83px 0;
+}
+
+#couple {
+    font-size: 45px;
+    font-family: Yeseva, sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.222;
+}
+
+
+#photos {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.names {
+    font-size: 18px;
+    font-family: MullerMediumItalic, sans-serif;
+    color: rgb(197, 182, 152);
+    font-style: italic;
+    margin-top: 20px;
+}
+
+#footer {
+    background-color: #f1d2bd;
+    color: #996e1c;
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 27px 20px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+}
+
+#icons {
+    font-size: 0;
+}
+
+svg {
+    width: 30px;
+    fill: #996e1c;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+svg:hover {
+    fill: #644304;
+}
+
+
+#rights {
+    font-size: 11px;
+    font-family: MullerMediumItalic, sans-serif;
+    color: rgb(153, 110, 28);
+    text-align: right;
+}
